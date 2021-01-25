@@ -3,7 +3,7 @@
         "title": "Kript",
         "img": "https://s3-us-west-1.amazonaws.com/jaimekvaternik.com/assets/images/kript.png",
         "backgroundColor": "#f0f0f0",
-        "time": "Jan. 2020",
+        "time": "Jan. 2021",
         "desc": "Kript is a secure password manager web app. My friend, Liam Stevenson, created a password manager backend as a personal project and I decided to make a web client using React. One challenge that came with this project was coming up with a dynamic design that would fit different datums. In this project, I'm also learning more about client-server communication with REST apis and backend authentication. I'm currently working on this project as the semester begins.",
         "skills": [
             "React.js",
@@ -16,7 +16,7 @@
         "title": "Burger Builder",
         "img": "https://s3-us-west-1.amazonaws.com/jaimekvaternik.com/assets/images/burger.png",
         "backgroundColor": "#E8BA3C",
-        "time": "Jan. 2020",
+        "time": "Jan. 2021",
         "desc": "The Burger Builder project is a small project to help me learn React.js fundamentals through a Udemy course. Users can 'build' they're own burger and purchase it, which is then registered in a Firebase database. In this project, I practiced using React class and functinal components, state, hooks and lifecycles, as well as connecting them to a Firebase server to process HTTP requests. While simple in thought, this project taught me a lot about React and serves as a stepping stone to make my own React apps today.",
         "skills": [
             "React.js",
