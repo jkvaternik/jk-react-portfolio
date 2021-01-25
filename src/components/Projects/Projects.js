@@ -15,7 +15,10 @@ const projects = (props) => {
             <div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px', marginBottom: '20px'}}>
                 {projs}
             </div>
-            <a href='/' style={{marginBottom: '65px'}}>Github</a>
+            <div style={{float: 'right', marginBottom: '65px'}}>
+                {/* <h4 marg>Want to see more?</h4>
+                <a href='/' style={{display: 'inline-block'}}><i class="fab fa-github fa-lg"></i></a> */}
+            </div>
         </div>
     )
 }
