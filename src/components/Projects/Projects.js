@@ -12,10 +12,10 @@ const projects = (props) => {
     return (
         <div id='#projects' className={styles.Projects}>
             <h4 style={{ textAlign: 'center', marginBottom: '35px' }}>work+play</h4>
-            <div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px', marginBottom: '100px'}}>
+            <div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px', marginBottom: '20px'}}>
                 {projs}
             </div>
-
+            <a href='/' style={{marginBottom: '65px'}}>Github</a>
         </div>
     )
 }

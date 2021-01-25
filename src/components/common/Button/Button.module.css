@@ -7,6 +7,22 @@
     display: inline-block;
     color: #000000;
     text-decoration: none;
+    transition: all .5s ease-out;
+}
+
+.Spotify:hover {
+    background-color: #289c0b;
+    color: #ffffff;
+}
+
+.Medium:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.SoundCloud:hover {
+    background-color: #ff7700;
+    color: #ffffff;
 }
 
 .Button span {
