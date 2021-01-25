@@ -1,0 +1,27 @@
+.Grid {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 16px;
+}
+
+.About {
+    background-color: #FFD8A2;
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0px 75px 0px;
+    color: #ffffff;
+}
+
+.Details {
+    grid-column-start: 3;
+    grid-column-end: 9;
+}
+
+.Details a{
+    margin-right: 10px;
+    font-size: 0.75vw;
+}
+
+.Details a:last-child{
+    margin-right: 0px;
+}

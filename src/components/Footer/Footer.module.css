@@ -1,0 +1,27 @@
+.Footer {
+    background-color: #606da3;
+    color: #ffffff;
+}
+
+.Footer a {
+    padding: 25px 75px;
+    margin-right: 16px;
+    background-color: #ffbb89;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.Footer a:last-child {
+    margin-right: 0px;
+}
+
+.Footer a:hover {
+    padding: 25px 75px;
+    background-color: #e69052;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 22;
+    color: #ffffff;
+}

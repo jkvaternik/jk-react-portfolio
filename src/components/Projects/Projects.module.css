@@ -1,0 +1,6 @@
+.Projects {
+    grid-area: 'projects';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

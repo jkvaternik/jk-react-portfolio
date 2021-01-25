@@ -1,0 +1,18 @@
+@import url("https://use.typekit.net/key0bfb.css");
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #ffffff;
+    color: #525252;
+    font-family: museo-sans, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
