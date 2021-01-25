@@ -44,8 +44,6 @@ const projects = [
             skills: ['Adobe XD', 'Story-telling', 'Prototyping']
         },
     ];
-    
-
 
 const landing = (props) => {
     return (
