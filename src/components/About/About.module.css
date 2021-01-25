@@ -9,6 +9,7 @@
     margin: 0 auto;
     padding: 50px 0px 75px 0px;
     color: #ffffff;
+    font-weight: 300;
 }
 
 .Details {
@@ -18,7 +19,8 @@
 
 .Details a{
     margin-right: 10px;
-    font-size: 0.75vw;
+    margin-bottom: 10px;
+    font-size: 14px;
 }
 
 .Details a:last-child{

@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Kript",
+        "img": "https://s3-us-west-1.amazonaws.com/jaimekvaternik.com/assets/images/kript.png",
+        "backgroundColor": "#f0f0f0",
+        "time": "Jan. 2020",
+        "desc": "Kript is a secure password manager web app. My friend, Liam Stevenson, created a password manager backend as a personal project and I decided to make a web client using React. One challenge that came with this project was coming up with a dynamic design that would fit different datums. In this project, I'm also learning more about client-server communication with REST apis and backend authentication. I'm currently working on this project as the semester begins.",
+        "skills": [
+            "React.js",
+            "HTML",
+            "CSS",
+            "REST APIs"
+        ]
+    },
+    {
+        "title": "Burger Builder",
+        "img": "https://s3-us-west-1.amazonaws.com/jaimekvaternik.com/assets/images/burger.png",
+        "backgroundColor": "#E8BA3C",
+        "time": "Jan. 2020",
+        "desc": "The Burger Builder project is a small project to help me learn React.js fundamentals through a Udemy course. Users can 'build' they're own burger and purchase it, which is then registered in a Firebase database. In this project, I practiced using React class and functinal components, state, hooks and lifecycles, as well as connecting them to a Firebase server to process HTTP requests. While simple in thought, this project taught me a lot about React and serves as a stepping stone to make my own React apps today.",
+        "skills": [
+            "React.js",
+            "HTML",
+            "CSS",
+            "REST APIs"
+        ]
+    },
+    {
+        "title": "Type Is Information Poster",
+        "img": "https://s3-us-west-1.amazonaws.com/jaimekvaternik.com/assets/images/type-poster.png",
+        "backgroundColor": "#5D5E94",
+        "time": "Sept. - Dec. 2020",
+        "desc": "In the fall semester, I was tasked with creating a poster of relationships between type as image and type as information/text. The poster works as a hierarchy; first the user sees the concept, which unifies and engages the viewer, then the type as image — responsible for presenting conveying information and posing a question to be answered by the type in information/text. Over the course of 13 weeks, I designed ~25 iterations of the poster showing the anatomy of type, working on relationships, contrast, and direction. This project pushed me out of my comfort zone and forced me to work with type in a way I hadn’t before. However, by the end of the semester, I was happy with its final result.",
+        "skills": [
+            "Adobe InDesign",
+            "Adobe Illustrator"
+        ]
+    },
+    {
+        "title": "NEU Contact Tracing App",
+        "img": "https://s3-us-west-1.amazonaws.com/jaimekvaternik.com/assets/images/neu-trace.png",
+        "backgroundColor": "#1B9EB5",
+        "time": "Oct. - Dec. 2020",
+        "desc": "The outbreak of COVID-19 has resulted in a global health crisis that has had a deep, lasting impact on the way we perceive our daily lives and the world. The goal of this project was to design and develop a COVID-19 contact tracing smartphone app for use by students at Northeastern University. We began the human-centered design and evaluation process by interviewing users to better understand their needs and expectations associated with such a contact tracing app before sketching out and prototyping UIs. After a series of iterative design and evaluation steps and revisions, we landed on a final design, which was then tested in a summative evaluation.",
+        "skills": [
+            "Figma",
+            "User Research",
+            "Usability Testing"
+        ]
+    },
+    {
+        "title": "Spreadsheets.ood",
+        "img": "https://s3-us-west-1.amazonaws.com/jaimekvaternik.com/assets/images/spreadsheets-ood.png",
+        "backgroundColor": "#2A495E",
+        "time": "Nov. - Dec. 2019",
+        "desc": "Spreadsheets.ood is a spreadsheet editor application. Using object-oriented design patterns such as the builder and visitor pattern, I developed an model-view-controller application that allows users to view and edit spreadsheets. The spreadsheet application allowed users to input values, cell references, and functions and save new or load exisiting spreadsheets.",
+        "skills": [
+            "Java",
+            "Object-Oriented Design"
+        ]
+    },
+    {
+        "title": "explore",
+        "img": "https://s3-us-west-1.amazonaws.com/jaimekvaternik.com/assets/images/explore.png",
+        "backgroundColor": "#FFF2E2",
+        "time": "Nov. - Dec. 2019",
+        "desc": "Explore was the first user-centered prototype I created. I under- went the entire design process from an idea to user interviews to storyboarding to usage scenarios to wireframes to user testing and repeat. It was all a new process but I took away a lot from it. I’ve reused elements from this process in my personal projects and other work experiences. However, the design process challenged me. I wasn’t used to creating wireframes and low-fidelity prototypes. I wanted to create the high-fidelity prototype right away but, by the end of this project, I realized the importance of iterative design.",
+        "skills": [
+            "Adobe XD",
+            "Story-telling",
+            "Prototyping"
+        ]
+    }
+]

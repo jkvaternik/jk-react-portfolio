@@ -7,7 +7,7 @@ import img from '../../assets/images/jk-picture.png';
 
 const about = (props) => {
     return (
-        <section id='#about' style={{ backgroundColor: '#E7BC85' }}>
+        <section id='#about' style={{ backgroundColor: '#E7BC85', float: 'clear'}}>
             <div className={styles.About}>
                 <h4>about me</h4>
                 <div className={styles.Grid}>

@@ -1,25 +1,36 @@
 import React from 'react';
+import Aux from '../../hoc/Aux/Aux';
 
 import Project from './Project.js/Project';
 
 import styles from './Projects.module.css';
+import data from './projects.json';
 
 const projects = (props) => {
-    const projs = props.projects.map((proj, i) => {
-        return <Project project={proj} key={'pK' + i}/>
-    })
+    const projs = data.map((data, i) => {
+        return <Project project={data} key={'pK' + i} />
+    });
 
     return (
-        <div id='#projects' className={styles.Projects}>
-            <h4 style={{ textAlign: 'center', marginBottom: '35px' }}>work+play</h4>
-            <div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px', marginBottom: '20px'}}>
-                {projs}
+        <Aux>
+            <div id='#projects' className={styles.Projects}>
+                <h4 style={{ textAlign: 'center', marginBottom: '35px' }}>work+play</h4>
+                <div className={styles.ProjectsView}>
+                    {projs}
+                </div>
             </div>
-            <div style={{float: 'right', marginBottom: '65px'}}>
-                {/* <h4 marg>Want to see more?</h4>
-                <a href='/' style={{display: 'inline-block'}}><i class="fab fa-github fa-lg"></i></a> */}
+            <div style={{ float: 'right', marginTop: '20px', marginBottom: '65px' }}>
+                <span style={{ display: 'inline-flex', alignItems: 'center', color: '#371e55'}}>
+                    Want to see more?
+                    <a className={styles.Link} href='https://github.com/jkvaternik' style={{ display: 'inline', marginLeft: '10px' }}>
+                        <i className="fab fa-github fa-2x"></i>
+                    </a>
+                    <a className={styles.Link} href='https://www.behance.net/jaimekvatea11c' style={{ display: 'inline', marginLeft: '10px' }}>
+                        <i className="fab fa-behance fa-2x"></i>
+                    </a>
+                </span>
             </div>
-        </div>
+        </Aux>
     )
 }
 
