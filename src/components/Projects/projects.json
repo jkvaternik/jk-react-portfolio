@@ -10,7 +10,8 @@
             "HTML",
             "CSS",
             "REST APIs"
-        ]
+        ],
+        "url": "https://github.com/liam923/Kript"
     },
     {
         "title": "Burger Builder",
@@ -23,7 +24,8 @@
             "HTML",
             "CSS",
             "REST APIs"
-        ]
+        ],
+        "url": "https://github.com/jkvaternik/burgerbuilder"
     },
     {
         "title": "Type Is Information Poster",
@@ -34,7 +36,8 @@
         "skills": [
             "Adobe InDesign",
             "Adobe Illustrator"
-        ]
+        ],
+        "url": "https://s3-us-west-1.amazonaws.com/jaimekvaternik.com/assets/images/type-poster.png"
     },
     {
         "title": "NEU Contact Tracing App",
@@ -46,7 +49,8 @@
             "Figma",
             "User Research",
             "Usability Testing"
-        ]
+        ],
+        "url": "https://www.figma.com/file/YffHPJxhQAQTi2RslZWlXB/FP9-High-Fidelity-Prototype-FINAL?node-id=0%3A1"
     },
     {
         "title": "Spreadsheets.ood",
@@ -57,7 +61,8 @@
         "skills": [
             "Java",
             "Object-Oriented Design"
-        ]
+        ],
+        "url": "https://github.com/jkvaternik/spreadsheetsOOD"
     },
     {
         "title": "explore",
@@ -69,6 +74,7 @@
             "Adobe XD",
             "Story-telling",
             "Prototyping"
-        ]
+        ],
+        "url": "https://xd.adobe.com/view/d67fc314-80eb-43b7-9731-ae27b8193f04-832c/?fullscreen"
     }
 ]

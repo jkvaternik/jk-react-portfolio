@@ -9,9 +9,10 @@ const footer = (props) => {
                 <h3 style={{ textAlign: 'center', margin: '0 0 50px 0'}}>want to say hello? let's connect!</h3>
                 <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                     <a href="mailto:jaime.kvaternik17@gmail.com?Subject=Hello%20Jaime">Email</a>
-                    <a href="https://www.linkedin.com/in/jkvaternik/" target="_blank">LinkedIn</a>
-                    <a href="https://s3-us-west-1.amazonaws.com/jaimekvaternik.com/assets/resume.v6.pdf" target="_blank">Resume</a>
+                    <a href="https://www.linkedin.com/in/jkvaternik/" target="_blank" rel="noreferrer">LinkedIn</a>
+                    <a href="https://s3-us-west-1.amazonaws.com/jaimekvaternik.com/assets/resume.v6.pdf" target="_blank" rel="noreferrer">Resume</a>
                 </div>
+                <p style={{textAlign: 'center', marginTop: '50px', fontSize: '12px'}}>Copyright 2021 - Jaime Kvaternik</p>
             </div>
         </footer>
     );

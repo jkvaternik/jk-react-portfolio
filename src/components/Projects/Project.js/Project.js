@@ -10,12 +10,17 @@ const project = (props) => {
 
     return (
         <div className={styles.Project}>
-            <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: props.project.backgroundColor, width: '100%', height: '300px', borderRadius: '10px 10px 0 0', overflow: 'hidden'}}>
-                <img src={props.project.img} alt={props.project.title + ' Image'}></img>
-            </div>
+            <a href={props.project.url} target='_blank' rel="noreferrer">
+                <div className={styles.View} style={{ backgroundColor: props.project.backgroundColor }}>
+                    <img src={props.project.img} alt={props.project.title + ' Image'}></img>
+                    <span>View Source</span>
+                </div>
+            </a>
+
+
             <div className={styles.Details}>
-                <h5>{props.project.title} <span style={{marginLeft: '20px', color: '#B4B4B4'}}>{props.project.time}</span></h5>
-                <p style={{fontSize: '14px', lineHeight: '17px'}}>{props.project.desc}</p>
+                <h5>{props.project.title} <span style={{ marginLeft: '20px', color: '#B4B4B4' }}>{props.project.time}</span></h5>
+                <p style={{ fontSize: '14px', lineHeight: '17px' }}>{props.project.desc}</p>
                 <div className={styles.Skills}>
                     {skills}
                 </div>

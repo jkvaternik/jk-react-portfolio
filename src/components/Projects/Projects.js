@@ -20,12 +20,12 @@ const projects = (props) => {
                 </div>
             </div>
             <div style={{ float: 'right', marginTop: '20px', marginBottom: '65px' }}>
-                <span style={{ display: 'inline-flex', alignItems: 'center', color: '#371e55'}}>
+                <span style={{ display: 'inline-flex', alignItems: 'center', color: '#371e55' }}>
                     Want to see more?
-                    <a className={styles.Link} href='https://github.com/jkvaternik' style={{ display: 'inline', marginLeft: '10px' }}>
+                    <a className={styles.Link} href='https://github.com/jkvaternik' target="_blank" rel="noreferrer" style={{ display: 'inline', marginLeft: '10px' }}>
                         <i className="fab fa-github fa-2x"></i>
                     </a>
-                    <a className={styles.Link} href='https://www.behance.net/jaimekvatea11c' style={{ display: 'inline', marginLeft: '10px' }}>
+                    <a className={styles.Link} href='https://www.behance.net/jaimekvatea11c' target="_blank" rel="noreferrer" style={{ display: 'inline', marginLeft: '10px' }}>
                         <i className="fab fa-behance fa-2x"></i>
                     </a>
                 </span>
