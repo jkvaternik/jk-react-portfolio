@@ -10,7 +10,7 @@ const footer = (props) => {
                 <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                     <a href="mailto:jaime.kvaternik17@gmail.com?Subject=Hello%20Jaime">Email</a>
                     <a href="https://www.linkedin.com/in/jkvaternik/" target="_blank">LinkedIn</a>
-                    <a href="https://s3-us-west-1.amazonaws.com/jaimekvaternik.com/assets/resume.v3.pdf" target="_blank">Resume</a>
+                    <a href="https://s3-us-west-1.amazonaws.com/jaimekvaternik.com/assets/resume.v6.pdf" target="_blank">Resume</a>
                 </div>
             </div>
         </footer>
