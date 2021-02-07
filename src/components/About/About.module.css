@@ -1,28 +1,66 @@
-.Grid {
+.About {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0px 50px 0px;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.ProfileImage {
+  width: 75%;
+  height: 100%;
+  border-radius: 50%
+}
+
+.Details a {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 425px) {
+  .ProfileImage {
+    width: 35%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .Container {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     gap: 16px;
-}
+  }
 
-.About {
-    width: 80%;
-    margin: 0 auto;
-    padding: 50px 0px 75px 0px;
-    color: #ffffff;
-    font-weight: 300;
-}
+  .ProfileImage {
+    width: 250px;
+    height: 250px;
+  }
 
-.Details {
+  .Details {
     grid-column-start: 3;
     grid-column-end: 9;
-}
+  }
 
-.Details a{
+  .Details a {
     margin-right: 10px;
     margin-bottom: 10px;
     font-size: 14px;
+  }
+
+  .Details a:last-child {
+    margin-right: 0px;
+  }
 }
 
-.Details a:last-child{
-    margin-right: 0px;
+@media only screen and (min-width: 1440px) {
+  .Details a {
+    width: initial;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .About {
+    width: 60%;
+  }
 }

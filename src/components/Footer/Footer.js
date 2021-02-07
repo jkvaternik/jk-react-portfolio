@@ -4,10 +4,10 @@ import styles from './Footer.module.css';
 
 const footer = (props) => {
     return (
-        <footer id='contact' className={styles.Footer}>
-            <div style={{ margin: '0 auto', width: '50%', padding: '75px 0' }}>
-                <h3 style={{ textAlign: 'center', margin: '0 0 50px 0'}}>want to say hello? let's connect!</h3>
-                <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+        <footer className={styles.Footer}>
+            <div className={styles.Wrapper}>
+                <h3>want to say hello? let's connect!</h3>
+                <div className={styles.LinksContainer}>
                     <a href="mailto:jaime.kvaternik17@gmail.com?Subject=Hello%20Jaime">Email</a>
                     <a href="https://www.linkedin.com/in/jkvaternik/" target="_blank" rel="noreferrer">LinkedIn</a>
                     <a href="https://s3-us-west-1.amazonaws.com/jaimekvaternik.com/assets/resume.v6.pdf" target="_blank" rel="noreferrer">Resume</a>

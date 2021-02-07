@@ -1,28 +1,63 @@
 .Footer {
-    background-color: #606da3;
-    color: #ffffff;
+  background-color: #606da3;
+  color: #ffffff;
+}
+
+.Wrapper {
+  margin: 0 auto;
+  width: 80%;
+  padding: 75px 0px;
 }
 
 .Footer a {
-    padding: 25px 75px;
-    margin-right: 16px;
-    background-color: #ffbb89;
-    border-radius: 10px;
-    text-decoration: none;
-    font-size: 22px;
-    color: #ffffff;
-    transition: all .3s ease-out;
+  padding: 25px 75px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 12px;
+  background-color: #ffbb89;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+  transition: all .3s ease-out;
 }
 
 .Footer a:last-child {
-    margin-right: 0px;
+  margin-bottom: 0px;
 }
 
-.Footer a:hover {
-    padding: 25px 75px;
+.LinksContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  text-align: center;
+  margin: 0 0 50px 0
+}
+
+@media only screen and (min-width: 768px) {
+  .Wrapper {
+    width: 60%;
+  }
+
+  .Footer a {
+    margin-bottom: 0px;
+    margin-right: 16px;
+  }
+
+  .Footer a:last-child {
+    margin-right: 0px;
+  }
+  .Footer a:hover {
     background-color: #e69052;
-    border-radius: 10px;
     text-decoration: none;
-    font-size: 22;
     color: #ffffff;
+  }
+
+  .LinksContainer { 
+    flex-direction: row;
+  }
 }
