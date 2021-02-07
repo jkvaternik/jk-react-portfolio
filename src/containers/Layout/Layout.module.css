@@ -1,0 +1,9 @@
+.Spacer {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .Spacer {
+    height: 150px;
+  }
+}
