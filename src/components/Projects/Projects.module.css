@@ -18,6 +18,8 @@
 }
 
 .Link {
+  text-decoration: none;
+  font-weight: 600;
   color: #371e55;
   transition: all .5s ease-out;
 }

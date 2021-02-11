@@ -22,10 +22,17 @@ const projects = (props) => {
         <span style={{ display: 'inline-flex', alignItems: 'center', color: '#371e55' }}>
           Want to see more?
           <a className={styles.Link} href='https://github.com/jkvaternik' target="_blank" rel="noreferrer" style={{ display: 'inline', marginLeft: '10px' }}>
-            <i className="fab fa-github fa-2x"></i>
+            ./Github
+            {/* <i className="fab fa-github fa-2x"></i> */}
           </a>
+          
           <a className={styles.Link} href='https://www.behance.net/jaimekvatea11c' target="_blank" rel="noreferrer" style={{ display: 'inline', marginLeft: '10px' }}>
-            <i className="fab fa-behance fa-2x"></i>
+            ./Behance
+            {/* <i className="fab fa-behance fa-2x"></i> */}
+          </a>
+          
+          <a className={styles.Link} href='https://observablehq.com/@jkvaternik' target="_blank" rel="noreferrer" style={{ display: 'inline', marginLeft: '10px' }}>
+            ./ObservableHQ 
           </a>
         </span>
       </div>
