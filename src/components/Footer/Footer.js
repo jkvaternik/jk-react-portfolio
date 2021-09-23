@@ -10,7 +10,7 @@ const footer = (props) => {
                 <div className={styles.LinksContainer}>
                     <a href="mailto:jaime.kvaternik17@gmail.com?Subject=Hello%20Jaime">Email</a>
                     <a href="https://www.linkedin.com/in/jkvaternik/" target="_blank" rel="noreferrer">LinkedIn</a>
-                    <a href="https://s3-us-west-1.amazonaws.com/jaimekvaternik.com/assets/JaimeKvaternik_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+                    <a href="https://s3.us-west-1.amazonaws.com/jaimekvaternik.com/assets/jaimeKvaternik_resume_Spring2022.pdf" target="_blank" rel="noreferrer">Resume</a>
                 </div>
                 <p style={{textAlign: 'center', marginTop: '50px', fontSize: '12px'}}>Copyright 2021 - Jaime Kvaternik</p>
             </div>
